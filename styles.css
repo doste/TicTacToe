@@ -1,0 +1,81 @@
+body {
+    /*padding: 15px;*/
+    padding-top: 1em;
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+    color: rebeccapurple;
+}
+
+h3 {
+    text-align:center;
+    color: gray;
+}
+
+ 
+
+  /****** GAME GRID ******/
+table{
+    margin:0 auto;
+    width:300px;
+    height:300px;
+    border-spacing: 4px 2px;
+}
+
+td {
+    padding: 0;
+    width: 33%; 
+    height: 33%;
+}
+
+.cell { 
+    height: 100px;  
+    width: 100px;
+    font-size: xxx-large;
+  }
+
+
+  /****** BUTTONS ******/
+  
+  
+  button {
+    color: #333;
+  }
+  
+  #restart {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    /* Center horizontally */
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .choose,
+  #restart {
+    border-radius: 0.3em;
+  }
+
+  .choose:active,
+  #restart:active {
+    background-color: #ccc;  /* Darker color when the button is pressed */
+  }
+  
+  
+  /******  HELPER CLASSES  ******/
+  
+  .center {
+    margin: 0 auto;
+  }
+  .hidden {
+    display: none;
+  }
+  .cannotuse {
+    cursor: not-allowed;
+  }
